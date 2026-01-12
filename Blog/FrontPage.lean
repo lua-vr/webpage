@@ -12,5 +12,5 @@ open Verso Genre Blog
 #doc (Page) "Lua :)" =>
 
 :::greeter
-ergodic theory, formalization, 🐈‍⬛s.
+ergodic theory, formalization and 🐱s
 :::

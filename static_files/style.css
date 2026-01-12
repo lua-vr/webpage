@@ -34,6 +34,11 @@ nav.top ol {
   gap: 3rem;
 }
 
+a:hover {
+  border-bottom: unset;
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   nav.top ol {
     flex-direction: column; /* Stack vertically on mobile */
