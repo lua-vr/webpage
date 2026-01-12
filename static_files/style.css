@@ -32,7 +32,6 @@ nav.top ol {
   margin: 0;
   padding: 0;
   gap: 3rem;
-  font-size: 3rem;
 }
 
 @media (max-width: 600px) {
@@ -183,3 +182,8 @@ nav.breadcrumbs ol li:not(:last-child)::after {
 }
 
 /* todo: breadcrumb, make page title smaller/color, can't see links, put posts in boxes */
+
+.logo h1 {
+  font-family: 'Princess Sofia';
+  font-weight: 600;
+}

@@ -77,7 +77,7 @@ def blog : Site := site Blog.FrontPage /
   "about" Blog.About
   "blog" Blog.Posts with
     Blog.Posts.Welcome
-    Blog.Posts.FirstPost
+    -- Blog.Posts.FirstPost
 
 #check Blog.Posts.FibIter.«the canonical document object name».toPart
 
