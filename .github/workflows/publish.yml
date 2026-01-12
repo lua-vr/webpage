@@ -60,7 +60,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy '_site/' --project-name=luawebpage
+          command: pages deploy _site/ --project-name=luawebpage
 
       - name: Save cache
         uses: actions/cache/save@v4
