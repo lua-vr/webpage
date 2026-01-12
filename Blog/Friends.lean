@@ -9,7 +9,7 @@ open Verso Genre Blog
 %%%
 %%%
 
-Here I collect the personal pages of friends I had the gift of meeting in person.
+Here I collect the personal pages of friends I’ve had the gift of meeting in person.
 - [Emily de Oliveira Santos](https://topological-modular-forms.github.io/)
 - [Henrique Miyamoto](https://miyamotohk.github.io/)
 - [Zheng Bian](https://bian-zheng.cn/)
