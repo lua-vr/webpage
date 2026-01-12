@@ -17,3 +17,8 @@ def examples : Category where
 def other : Category where
   name := "Other content"
   slug := "other"
+
+
+def weekly_tips : Category where
+  name := "Weekly tips"
+  slug := "weekly-tips"

@@ -148,19 +148,19 @@ block_component +directive greeter where
     saveJs <| "if (document.getElementById('" ++ id ++ "')) { initGreeter(); }"
     pure {{
     <div class="greeter-container" id={{id}}>
-        <div class="particles" id="particles"></div>
+      <div class="particles" id="particles"></div>
 
-        <div class="floating-math">"fix your hearts or die"</div>
-        <div class="floating-math">"TendsTo (birkhoffAverage ℝ f g) (𝓝 (μ[g|invariants f])) atTop"</div>
-        <div class="floating-math"><code class="math display">"P(\\varphi,f)=\\sup_{\\mu \\in \\mathcal{M}_f} h_{\\mu}(f)+\\int \\varphi \\;d\\mu"</code></div>
-        <div class="floating-math">"#check #eval #reduce"</div>
-        <div class="floating-math">"∃ k, n = 2 * k"</div>
-        <div class="floating-math">"by induction n with"</div>
+      <div class="floating-math">"fix your hearts or die"</div>
+      <div class="floating-math">"TendsTo (birkhoffAverage ℝ f g) (𝓝 (μ[g|invariants f])) atTop"</div>
+      <div class="floating-math"><code class="math display">"P(\\varphi,f)=\\sup_{\\mu \\in \\mathcal{M}_f} h_{\\mu}(f)+\\int \\varphi \\;d\\mu"</code></div>
+      <div class="floating-math">"#check #eval #reduce"</div>
+      <div class="floating-math">"∃ k, n = 2 * k"</div>
+      <div class="floating-math">"by induction n with"</div>
 
-        <div class="greeter">
-            <h1 class="title">"Lua’s Homepage"</h1>
-            {{← contents.mapM goB}}
-        </div>
+      <div class="greeter">
+        <h1 class="title">"Lua’s Homepage"</h1>
+        {{← contents.mapM goB}}
+      </div>
     </div>
     }}
 

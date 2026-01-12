@@ -8,6 +8,7 @@ import VersoBlog
 import Blog.Posts.FirstPost
 import Blog.Posts.Welcome
 import Blog.Posts.FibIter
+import Blog.Posts.WeeklyTips.W0
 
 open Verso Genre Blog
 
