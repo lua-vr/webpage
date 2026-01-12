@@ -55,14 +55,12 @@ jobs:
         run: |
           ~/.elan/bin/lake exe blog
 
-      - name: "Upload website (API documentation, blueprint and any home page)"
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload website
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: '_site/'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy '_site/' --project-name=webpage
 
       - name: Save cache
         uses: actions/cache/save@v4
