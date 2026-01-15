@@ -144,8 +144,13 @@ block_component +directive greeter where
     <div class="greeter-container" id={{id}}>
       <div class="particles" id="particles"></div>
 
+
+      <div class="floating-math"><code class="math display">"P(\\varphi,f)=\\sup_{\\mu \\in \\mathcal{M}_f} h_{\\mu}(f)+\\int \\varphi \\;d\\mu"</code></div>
+      <div class="floating-math"><code class="math display">"\\lim_{n\\to\\infty}\\frac1n\\sum_{i=0}^{n-1}\\varphi (f^i(x))\\to \\mathbb{E}(\\varphi\\mid \\mathcal{I})(x)"</code></div>
+      <div class="floating-math"><code class="math display">"(h^u_{x_1,x_2})_*\\mu_{x_1}^u=\\mu_{x_2}^u"</code></div>
+
       <div class="greeter">
-        <h1 class="title">"Lua’s Homepage"</h1>
+        <h1 class="title">"Lua’s Webpage"</h1>
         {{← contents.mapM goB}}
       </div>
     </div>
