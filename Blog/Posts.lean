@@ -16,4 +16,5 @@ open Verso Genre Blog
 %%%
 %%%
 
-Posts about learning Lean 4, formal verification, and writing proofs alongside code. I'm documenting what I figure out as I go, mostly focusing on how to apply these ideas to practical programming problems.
+_*beware*: this website is 🏗️️ 🚧 under construction!! 🚧 🏗️️_
+

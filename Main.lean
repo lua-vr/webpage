@@ -77,7 +77,6 @@ def blog : Site := site Blog.FrontPage /
   "about" Blog.About
   "blog" Blog.Posts with
     Blog.Posts.Welcome
-    Blog.Posts.WeeklyTips.W0
     -- Blog.Posts.FirstPost
   -- "photography" Blog.Photography
   "friends" Blog.Friends
